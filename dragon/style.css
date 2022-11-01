@@ -1,0 +1,104 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://static.wikia.nocookie.net/mkwikia/images/5/58/Dead_Woods.png/revision/latest?cb=20150421130154");
+  background-size: cover;
+}
+
+#battleInfo {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 500;
+  display: none;
+}
+
+.action-buttons-wrapper {
+  width: 80%;
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.action-btn {
+  margin-right: 10px;
+}
+
+.progress-bar-wrapper {
+  width: 80%;
+  padding-top: 25px;
+  margin: 25px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  width: 40%;
+  height: 40px;
+  background: red;
+}
+
+.progress {
+  width: 100%;
+  height: 100%;
+  background: green;
+  padding: 0 10px;
+  color: white;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 500;
+  font-style: italic;
+  transition: width 0.5s ease-out;
+}
+
+.progress-bar-hero {
+  display: flex;
+  flex-direction: row;
+}
+
+.progress-bar-dragon {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.progress-bar-hero .progress {
+  text-align: left;
+}
+
+.progress-bar-dragon .progress {
+  text-align: right;
+}
+
+.heroes{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 80%;
+    padding-top: 25px;
+    margin: 25px auto;
+    height: 70vh;
+}
+
+.my_hero {
+  width: 50%;
+  height: 70vh;
+  background-image: url(./img/position.gif);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+.enemy {
+  width: 50%;
+  height: 56vh;
+  background-image: url(./img/mcgregor.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain
+} 
+
+.weapons {
+  width: 100px;
+  margin-left: 100px;
+}
