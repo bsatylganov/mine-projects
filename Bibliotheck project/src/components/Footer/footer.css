@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+footer {    
+    margin-top: 10%;
+    padding: 3rem 0;
+    background-color: #182334;
+    color: white;
+    height: auto;
+}
+h2 {
+    margin-left: 20px;
+}
+hr {
+   margin-left: 120px;
+}
+footer li {
+    list-style: none;
+    font-style: 1.5rem;
+    font-weight: lighter;
+    color: white;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+footer p {
+    text-align: center;
+}
+.social{
+    margin-right: 40%;
+}

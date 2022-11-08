@@ -1,0 +1,39 @@
+img{
+    width: 10vw;
+}
+.cards{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.developments {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin: 20px;
+}
+.dev{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 5%;
+}
+.populyar { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%; 
+}
+.devHeader {
+        margin-top: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 16%; 
+}
+h5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%; 
+}

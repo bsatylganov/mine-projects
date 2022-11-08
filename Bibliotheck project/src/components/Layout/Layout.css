@@ -1,0 +1,24 @@
+li{
+    margin: 10px 0 0 30px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: baseline;
+    width: 100vh;
+}
+.login{
+    float: left;
+}
+.main_nav{
+    display: flex;
+    list-style-type:none;
+    font-size: large;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
